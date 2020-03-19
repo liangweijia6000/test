@@ -1,0 +1,8 @@
+syntax="proto3";
+
+message FirstMsg
+{
+	int32 a = 1;
+	bool b = 2;
+	repeated int32 r = 3;
+}
